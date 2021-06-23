@@ -119,6 +119,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-# LOGIN_URL = 'login' # ログインしていないときのリダイレクト先
-# LOGIN_REDIRECT_URL = 'index' # ログイン後のリダイレクト先
-#LOGOUT_REDIRECT_URL = 'index' # ログアウト後のリダイレクト先
+LOGIN_URL = 'top' # ログインしていないときのリダイレクト先
+LOGIN_REDIRECT_URL = 'top' # ログイン後のリダイレクト先
+LOGOUT_REDIRECT_URL = 'top' # ログアウト後のリダイレクト先

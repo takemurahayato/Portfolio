@@ -8,9 +8,10 @@ class MyLoginView(LoginView):
     form_class = forms.LoginForm
     template_name = "login.html"
 
+
 class MyLogoutView(LoginRequiredMixin, LogoutView):
     template_name = "logout.html"
 
 class IndexView(TemplateView):
-    template_name = "index.html"
+    template_name = "top.html"
 
